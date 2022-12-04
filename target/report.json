@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22667457552,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify Euro to Candian money convertion",
+        "description": "",
+        "id": "currency-converter;verify-euro-to-candian-money-convertion",
+        "after": [
+          {
+            "result": {
+              "duration": 1635727009,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 460068871,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on the currency converter page",
+            "match": {
+              "location": "CurrencyStepDef.the_user_is_on_the_currency_converter_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9731985399,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user convert the currency",
+            "match": {
+              "location": "CurrencyStepDef.the_user_convert_the_currency()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164557650,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should see the conversion rate",
+            "match": {
+              "location": "CurrencyStepDef.the_user_should_see_the_conversion_rate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6491896998,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user check the rate on the chart",
+            "match": {
+              "location": "CurrencyStepDef.the_user_check_the_rate_on_the_chart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54219,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the rate should match with the conversion rate",
+            "match": {
+              "location": "CurrencyStepDef.the_rate_should_match_with_the_conversion_rate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Currency Converter",
+    "description": "",
+    "id": "currency-converter",
+    "keyword": "Feature",
+    "uri": "CurrencyTest.feature"
+  }
+]
